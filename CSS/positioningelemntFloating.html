@@ -9,6 +9,8 @@
         /*}*/
         div{
             background: goldenrod;
+            position: relative;
+            /*to make it relative for p1 to have set its absolute position*/
         }
         p{
             width: 20%;
@@ -23,8 +25,12 @@
             /*for having everthing including padding and margin in pox wdth*/
         }
         #p1{
-            height: 20%;
+            /*height: 40%;*/
             background-color: #90EE90;
+            position: absolute;
+            /*relative to closest relative posisting element*/
+            top: 0;
+            right:0;
 
         }
         #p2{
