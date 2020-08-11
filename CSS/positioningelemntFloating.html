@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>floatingElement</title>
+    <style>
+        /**{*/
+        /*    box-sizing: border-box;*/
+        /*}*/
+        div{
+            background: goldenrod;
+        }
+        p{
+            width: 20%;
+            /*to make floating stay with decrease in screen size we used %*/
+
+            height: 40%;
+            float: left;
+            margin-top: 0;
+            margin-left: 10px;
+            border: 2px solid blue;
+            box-sizing: border-box;
+            /*for having everthing including padding and margin in pox wdth*/
+        }
+        #p1{
+            height: 20%;
+            background-color: #90EE90;
+
+        }
+        #p2{
+            background-color: red;
+            /*clear: left;*/
+        }
+        #p3{
+            background: aqua;
+        }
+        section{
+            clear: left;
+            /*to resume normal document flow once floated*/
+            /*to clearleft floting of elements*/
+        }
+
+    </style>
+</head>
+<body>
+<h1>
+    this is heading
+</h1>
+<div>
+    <p id="p1">p1</p>
+    <p id="p2">p2</p>
+    <p id="p3">p3</p>
+    <section>this is a section!!!!</section>
+</div>
+</body>
+</html>
