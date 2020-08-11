@@ -1,0 +1,31 @@
+*{
+    /*this is start selector that specifies that
+    select all elemnts and make them have this property*/
+   /*this means that the box will have width of total padding margin and border
+    it cannot be used with body becauseit cannot be inherited*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#box {
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    overflow: auto;
+}
+#content {
+    background-color: #90EE90; /* green */
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
